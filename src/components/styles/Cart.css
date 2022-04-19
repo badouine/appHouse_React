@@ -1,7 +1,11 @@
 .lmj-cart {
 	color: white;
-	background-color: #0a6e3cf1;
+	background-color: #31b572;
 	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 200px;
 }
 
 .lmj-cart-add-button {

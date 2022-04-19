@@ -2,6 +2,7 @@ import './styles/Cart.css';
 import { useState } from 'react';
 
 
+
 const Cart = () => {
     const monsteraPrice = 8
 	const [cart, updateCart] = useState(0)
