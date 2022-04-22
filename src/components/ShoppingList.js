@@ -1,6 +1,7 @@
 import {plantList} from '../datas/plantList';
 import './styles/ShoppingList.css';
 import PlantItem from './PlantItem';
+import Categories from './Categories';
  
 function ShoppingList({ cart, updateCart }) {
   const categories = plantList.reduce(
