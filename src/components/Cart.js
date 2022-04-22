@@ -1,10 +1,13 @@
 import './styles/Cart.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
 const Cart = ({cart, updateCart}) => {
     const [isOpen, setIsOpen] = useState(true)
+	useEffect(() => {
+		alert(`J'aurai ${total}€ a payer`)
+	})
 	const total = cart.reduce(
 		(acc, plantType) => acc + plantType.amount * plantType.price,
 		0
