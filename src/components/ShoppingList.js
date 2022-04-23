@@ -1,8 +1,10 @@
 import {plantList} from '../datas/plantList';
 import './styles/ShoppingList.css';
-import useState from "react";
+import {useState} from "react";
 import PlantItem from './PlantItem';
 import Categories from './Categories';
+
+
 function ShoppingList({ cart, updateCart }) {
 	const [activeCategory, setActiveCategory] = useState('')
 	const categories = plantList.reduce(
